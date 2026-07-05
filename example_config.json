@@ -1,0 +1,15 @@
+{
+  "delta_c_kg_m3": 44.0,
+  "salt_density_kg_m3": 2265.0,
+  "reactor_volume_m3": 63.0,
+  "particle_diameter_m": 0.001,
+  "impeller_to_tank_diameter_ratio": 0.4,
+  "tank_diameter_m": 3.2,
+  "fill_fraction": 0.8,
+  "liquid_density_kg_m3": 1010.0,
+  "diffusivity_m2_s": 2.2e-09,
+  "dynamic_viscosity_pa_s": 0.00119,
+  "power_number": 0.5,
+  "motor_factor": 3.0,
+  "motor_limit_kw": 5.0
+}
