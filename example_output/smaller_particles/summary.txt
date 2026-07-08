@@ -1,0 +1,23 @@
+Salt dissolution in a stirred reactor - calculation summary
+==========================================================
+Evaluated speed range: 10 to 100 rpm
+Impeller diameter: 1.280 m
+Motor capacity limit: 7.500 kW
+
+Source-workbook check at the first speed:
+  Re = 231762.464986
+  Sc = 535.553555
+  Sh = 3127.609377
+  k_c = 0.013761481260 m/s
+  tau = 0.467584772986 s
+  motor power = 24.099539 W
+
+Simple capacity-screening recommendation:
+  Highest evaluated speed within the motor limit: 67 rpm
+  Calculated dissolution time: 0.1806 s
+  Calculated motor power: 7.2482 kW
+  Calculated energy: 1309.35 J
+
+Important: This is a theoretical coursework model. It should not be used
+for real equipment sizing, safety decisions, or industrial process control
+without independent engineering validation and appropriate physical data.
