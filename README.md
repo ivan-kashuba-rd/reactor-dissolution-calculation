@@ -4,7 +4,30 @@ A small Python portfolio project that reproduces and documents a theoretical cou
 
 > **Scope and integrity note:** This is a transparent implementation of a coursework spreadsheet, not a validated industrial reactor-design or safety tool. It must not be used for equipment sizing, process-control decisions or safety decisions without independent engineering validation.
 
-![Example output](example_output/dissolution_plots.png)
+## Example output plots
+
+### Baseline case
+
+The baseline output is generated from the default parameters.
+
+![Baseline dissolution plots](example_output/dissolution_plots.png)
+
+### Smaller-particle scenario
+
+A separate scenario is provided in:
+
+[`scenarios/smaller_particles.json`](scenarios/smaller_particles.json)
+
+This scenario uses:
+
+- particle diameter: 0.5 mm
+- motor-capacity limit: 7.5 kW
+
+The model identifies **67 rpm** as the highest tested feasible impeller speed under the selected motor-capacity limit.
+
+![Smaller-particle scenario plots](example_output/smaller_particles/dissolution_plots.png)
+
+This is a theoretical scenario-screening result, not a final industrial operating recommendation.
 
 ## Why this project
 
